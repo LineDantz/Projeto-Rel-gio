@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+   <!-- Título-->
+    <title>Meu primeiro site com Java Script</title>
+   
+    <!-- Conecta com o css-->
+     <link rel="stylesheet" href="style.css">
+
+     <!-- conecta o js-->
+      <script src="script.js" defer></script>
+      </head>
+      <body>
+        <header>
+            <h1>Meu primeiro site com Java Script</h1>
+        </header>
+        <main>
+            
+           <!-- bloco/sessão-->
+            <section class="Conjunto">
+                <div class="Horário atual">
+                <h3>Horário de brasília</h3>
+                <p id="horario"></p>
+                </div>
+
+                <div class="Entrada no evento">
+                    <h3>Entrada no evento</h3>
+                    <input type="number" id="idade" placeholder="Digite sua idade">
+                    <button onclick="verificarIdade()">Verficar idade</button>
+                    
+                    <p id="resultado"></p>
+                </div>
+
+                <div class="Aparencia do site">
+                    <h3>Aparência do site</h3>
+                    <button onclick ="tema()">Mudar tema</button>
+                </div>
+            </section>
+        </main>
+      </body>

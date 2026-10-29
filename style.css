@@ -1,0 +1,87 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e8ddff, #d6eaff);
+    color: #333;
+    text-align: center;
+    padding: 40px;
+    transition: 0.4s;
+}
+
+h1 {
+    color: #6545a5;
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-shadow: 1px 2px 3px #cccccc;
+}
+
+h2 {
+    color: #7354b5;
+    font-size: 26px;
+    margin-top: 30px;;
+}
+
+/* Relógio */
+#horario {
+    font-size: 50px;
+    font-weight: bold;
+    color: #6545a5;
+    letter-spacing: 0px;
+}
+
+/* Campo de idade */
+input {
+    padding: 12px;
+    border: 2px solid #b9a5e8;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #7354b5;
+    box-shadow: 0 0 8px #b9a5e8;
+}
+
+/* Botões */
+button {
+    background: #8062c7;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6043a5;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px #999;
+}
+
+/* Mensagem de entrada */
+#resultado {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Tema escuro */
+body.escuro {
+    background: linear-gradient(135deg, #141827, #30304d);
+    color: white;
+}
+
+body.escuro h1,
+body.escuro h2,
+body.escuro #relogio {
+    color: #c5b0ff;
+}
+
+body.escuro input {
+    background: #30344a;
+    color: white;
+    border-color: #8062c7;
+}
